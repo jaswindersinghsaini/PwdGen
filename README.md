@@ -7,11 +7,10 @@ This project is about making a random password generator that will generate a pa
 It prompts the user to be able to choose the characters wanted in the password and works accordingly.
 
 ## Link to the Project
-Link to the project.
-
-## Image of the Project
+ https://jaswindersinghsaini.github.io/PwdGen/
+ 
+## Image of the Project (Issue while loading actual image therefore github link)
 https://github.com/jaswindersinghsaini/PwdGen/blob/7a4112edd32da7d4ad3a79a423b52a7fc850e1e9/Assets/Image_PwdGen.jpg
-<br>
 
 ### Technologies Used
     - HTML
