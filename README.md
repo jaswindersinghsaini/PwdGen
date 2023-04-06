@@ -10,8 +10,8 @@ It prompts the user to be able to choose the characters wanted in the password a
 Link to the project.
 
 ## Image of the Project
-
-<img src="/Assets/Image_PwdGen.jpg" alt="Password Generator Image" height="500px"; width="500px";/>
+https://github.com/jaswindersinghsaini/PwdGen/blob/7a4112edd32da7d4ad3a79a423b52a7fc850e1e9/Assets/Image_PwdGen.jpg
+<br>
 
 ### Technologies Used
     - HTML
