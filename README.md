@@ -11,7 +11,7 @@ Link to the project.
 
 ## Image of the Project
 
-<img src="/Develop/Assets/Image_PwdGen.png" alt="Password Generator Image" height = "500px"; width = "500px";>
+<img src="/Assets/Image_PwdGen.jpg" alt="Password Generator Image" height="500px"; width="500px";/>
 
 ### Technologies Used
     - HTML

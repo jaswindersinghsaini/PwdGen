@@ -12,57 +12,60 @@ var passChar = "";
 var password = "";
 function generatePassword() {
 
+  //To get user input for password length until it fulfills the criteria
   var userInputlength;
 
   do {
     userInputlength = prompt("Please enter password lenghth between 8 to 128");
   } while (userInputlength < 8 && userInputlength || userInputlength > 128 && userInputlength);
 
-
+//To get user choice for Lowercase character
   var lowercaseInput = confirm("Press Ok to include Lowercase character");
 
   if (lowercaseInput == true) {
     lowercaseInput = lwrCase;
   } else {
-    alert("you did not chose lower case")
+    alert("Lowercase character not chosen")
 
     lowercaseInput = "";
   }
 
-
+//To get user input for Uppercase character
   var uppercaseInput = confirm("Press Ok to include Uppercase character");
 
   if (uppercaseInput == true) {
     uppercaseInput = upperCase;
   } else {
-    alert("you did not chose upper case")
+    alert("Uppercase character not chosen")
 
     uppercaseInput = "";
   }
 
+//To get user input for Numerical character
   var numericInput = confirm("Press Ok to include Numeric character");
 
   if (numericInput == true) {
     numericInput = nums;
   } else {
-    alert("you did not chose numeric character")
+    alert("Numerical character not chosen")
 
     numericInput = "";
   }
 
+//To get user input for Special characters or Symbols
   var specialInput = confirm("Press Ok to include Special character");
 
   if (specialInput == true) {
     specialInput = specialChar;
   } else {
-    alert("you did not chose special character")
+    alert("Special character not chosen")
 
     specialInput = "";
   }
 
   passChar = (lowercaseInput + uppercaseInput + numericInput + specialInput);
 
-
+// To generate random password per user chosen length
   for (var i = 1; i <= userInputlength; i++) {
 
     var random = Math.floor(Math.random() * passChar.length);
